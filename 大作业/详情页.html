@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>xiangqing</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	ul,li{
+	    list-style:none;
+	    display:block;
+    }
+	.zong{
+		width:1330px;
+		height:1063px;
+		margin:0 auto;
+	}
+	.banner{
+		width:1330px;
+		height:130px;
+		background-color:white;
+		margin:0 auto;
+	}
+	.ban1{
+		width:1180px;
+		height:130px;
+		margin-left:75px;
+		background-color:white;
+		z-index: 9999;
+		top:0;
+	}
+	.zi1{
+		font-size:12px;
+		color:#9a9791;
+		float:left;
+	}
+	.tu1{
+		margin-left:379px;
+		float:left;
+		margin-top:7px;
+	}
+	.lie{
+		float:left;
+		margin-left:18px;
+		font-size:12px;
+		color:#9a9791;
+	}
+	.lie1{
+		float:left;
+		font-size:12px;
+		color:#9a9791;
+	}
+	.tu2{
+		float:left;
+		margin-left:18px;
+		margin-top:15px;
+		margin-right:1px;
+	}
+	.tu3{
+		float:left;
+		margin-left:18px;
+		margin-top:12px;
+		margin-right:1px;
+	}
+	.tu4{
+		float:left;
+		margin-left:18px;
+		margin-top:10px;
+	}
+	.tu5{
+		float:left;
+		margin-left:18px;
+		margin-top:10px;
+		margin-right:5px;
+	}
+	.gouwu{
+		font-size:12px;
+		color:#fe6c00;
+	}
+	.bang{
+		margin-right:108px;
+		float:left;
+	}
+	.xuan{
+		width:497px;
+		height:34px;
+		border:2px solid #fe6c00;
+		margin-top:15px;
+		float:left;
+		color:#9a9791;
+	}
+	.niu{
+		float:left;
+		width:83px;
+		height:40px;
+		margin-top:15px;
+		background-color:#fe6c00;
+		border:0;
+		color:white;
+		margin-right:90px;
+	}
+	.lianxi{
+		float:left;
+		margin-top:15px;
+	}
+	.niu1{
+		background-color:#fe6c00;
+		float:left;
+		color:white;
+		font-size:12px;
+		width:84px;
+		height:38px;
+		border:0;
+		margin-top:15px;
+		border-radius:2px;
+	}
+	.lie2{
+		float:left;
+		color:#ff0000;
+		font-size:12px;
+	}
+	.lie3{
+		float:left;
+		color:#9a9791;
+		font-size:12px;
+	}
+	.gang{
+		/*float:left;*/
+		color:#9a9791;
+		font-size:12px;
+		margin-right:9px;
+	}
+	.lie4{
+		float:left;
+		color:#cbe9ff;
+		font-size:12px;
+	}
+	.aaa{
+		float:left;
+	}
+	.tiao{
+		width:1330px;
+		height:40px;
+		background-color:#000000;
+		margin:0 auto;
+		float:left;
+		margin-bottom:14px;
+	}
+	.an1{
+		width:96px;
+		height:40px;
+		background-color:#fe0d4a;
+		color:white;
+		font-size:15px;
+		border:0;
+		float:left;
+	}
+	.an2{
+		width:125px;
+		height:40px;
+		float:left;
+		font-size:15px;
+		border:0;
+		color:white;
+		background-color:#000000;
+	}
+	.ann{
+		float:left;
+		margin-left:75px;
+	}
+	.hei{
+		margin-left:45px;
+	}
+	.zhuti{
+		width:1330px;
+		height:812px;
+		margin:0 auto;
+		background-color:#f6f5f4;
+	}
+	.meirong{
+		font-size:12px;
+		margin-left:75px;
+		margin-bottom:13px;
+	}
+	.shui{
+		width:1180px;
+		height:632px;
+		margin-left:75px;
+	}
+	.zuo{
+		width:995px;
+		height:632px;
+		float:left;
+		background-color:#fff;
+	}
+	.zuoo{
+		width:450px;
+		height:632px;
+		float:left;
+	}
+	#smallImg{
+		border:1px solid #d0cdc7;
+		margin-left:20px;
+		margin-top:20px;
+		margin-right:20px;
+		margin-bottom:24px;
+		float:left;
+	}
+	.sp1{
+		margin-right:250px;
+		float:left;
+		border:1px solid #fff;
+	}
+	.xia{
+		float:left;
+	}
+	.xia2{
+		float:left;
+		border:1px solid #fff;
+	}
+	.xia1{
+		float:left;
+		margin-left:20px;
+	}
+	.zuoyou{
+		float:left;
+		width:545px;
+		height:632px;
+	}
+	.han{
+		font-size:14px;
+		padding-top:5px;
+	}
+	.xian{
+		font-size:11px;
+		color:#676660;
+	}
+	.jia{
+		font-size:12px;
+		margin-left:20px;
+		padding:0;
+	}
+	.jia1{
+		color:#ff5303;
+		font-size:13px;
+		margin-left:45px;
+		margin-right:15px;
+	}
+	.jia2{
+		font-size:11px;
+		text-decoration:line-through;
+	}
+	.xiaaaa{
+		width:465px;
+		height:35px;
+	}
+	.hua{
+		margin-left:20px;
+		font-size:12px;
+		float:left;
+		margin-right:25px;
+	}
+	#qian1{
+		width:60px;
+		height:28px;
+		float:left;
+		font-size:13px;
+		margin-top:18px;
+		text-align:center;
+		background-color:#fff;
+		margin-bottom:10px;
+		border:1px solid white;
+	}
+	#qian2{
+		width:60px;
+		height:28px;
+		float:left;
+		font-size:13px;
+		margin-top:18px;
+		text-align:center;
+		margin-right:304px;
+		background-color:#fff;
+		margin-bottom:10px;
+		border:1px solid white;
+	}
+	.liang{
+		font-size:13px;
+		float:left;
+		margin-right:65px;
+		margin-left:20px;
+	}
+	#fu{
+		float:left;
+		width:24px;
+		height:29px;
+		margin-top:10px;
+	}
+	#fu1{
+		float:left;
+		width:24px;
+		height:29px;
+		margin-top:10px;
+		margin-right:25px;
+	}
+	#xxx{
+		float:left;
+		width:50px;
+		height:27px;
+		border:1px solid #aca7a2;
+		text-align:center;
+		margin-top:10px;
+	}
+	.jian{
+		float:left;
+		font-size:13px;
+		margin-right:223px;
+	}
+	.xiao{
+		float:left;
+		font-size:13px;
+		margin-left:20px;
+		margin-right:60px;
+	}
+	.nnn{
+		font-size:13px;
+		float:left;
+		margin-right:410px;
+	}
+	.qian3{
+		color:#ff0656;
+	}
+	#nin{
+		float:left;
+		font-size:13px;
+		margin-left:105px;
+	}
+	#nin1{
+		width:376px;
+		height:18px;
+		float:left;
+		color: orange;
+		font-size:13px;
+	}
+	#li{
+		width:150px;
+		height:40px;
+		float:left;
+		margin-right:23px;
+		background-color:#fff;
+		color:#ff0556;
+		border-radius:5px;
+		border:1px solid #ff0556;
+		margin-left:25px;
+	}
+	#che{
+		width:150px;
+		height:40px;
+		float:left;
+		background-color:#ff0556;
+		color:#fff;
+		border-radius:5px;
+		border:0;
+	}
+	.zhong{
+		width:6px;
+		height:632px;
+		float:left;
+		background-color:#f6f5f4;
+	}
+	.you{
+		height:632px;
+		width:179px;
+		float:left;
+	}
+	.hengfu{
+		margin-left:80px;
+	}
+	.xiabu{
+		width:1330px;
+		height:180px;
+		margin:0 auto;
+		background-color:#fff;
+	}
+	.tutu{
+		margin-left:85px;
+		float:left;
+		margin-right:85px;
+	}
+	.dibu1{
+		float:left;
+		width:65px;
+		height:180px;
+		margin-right:66px;
+	}
+	.di{
+		font-size:15px;
+	}
+	.di1{
+		font-size:12px;
+		color:#666560;
+	}
+	.tutu1{
+		float:left;
+		margin-top:20px;
+	}
+	.heng{
+		background-color:#ebeae8;
+		width:1180px;
+		height:1px;
+		margin-left:85px;
+	}
+	.zuidi{
+		height:163px;
+		width:1330px;
+		background-color:#fff;
+	}
+	.zui1{
+		float:left;
+		font-size:12px;
+		margin-right:14px;
+		color:#666560;
+	}
+	.zui2{
+		float:left;
+		font-size:12px;
+		margin-right:14px;
+		color:#666560;
+	}
+	.wei{
+		margin-bottom:5px;
+		background-color:#fff;
+	}
+	.wei1{
+		margin-left:285px;
+	}
+	.btn4{
+        width: 150px;
+        height: 40px;
+        border-radius: 5px;
+        background-color:#FF1493;
+        float: left;
+        margin-left: 30px;
+        color: white;
+        border:0;
+    }
+    .btn3{
+        width: 150px;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid #FF1493;
+        color: red;
+        background-color: white;
+        float: left;
+        margin-left: 30px;
+    }
+    #tcc{
+        text-align: center;
+        background-color: white;
+        border: 3px solid gray;    
+    }
+    .close{
+        width: 30px;
+        height: 30px;
+        margin-left: 370px;
+        background-color: white;
+        margin-top: 1px;
+        border: none;
+    }
+   #smallImg{
+	    float: left;
+	    width: 400px;
+	    height: 400px;
+	    position: relative;
+    }
+    #smallImg img{
+	    width: 400px;
+	    height: 400px;
+    }    
+    #lay{
+	    position: absolute;
+	    left: 0;
+	    top: 0; 
+	    border: 1px solid #666;
+	    opacity: 0.3;
+	    filter: alpha(opacity = 30);
+	    background: black;
+	    display: none;
+	    cursor: move;
+    }
+    #bigImg{
+	    margin-top: -1px;
+	    width: 400px;
+	    height: 400px;
+	    position: absolute;
+	    left: 401px;
+	    overflow: hidden;
+	    top: 0;
+	    display: none;
+	    border: 1px solid gray;
+	    background: white;
+    }
+    #bigImg img{
+	    position: absolute;
+	    left: 10;
+    }
+    </style>
+</head>
+<body>
+	<div class="zong">
+		<div class="banner">
+			<div class="ban1">
+				<p class="zi1">帮5买 ，想帮帮</p>
+				<img src="Web开发二大作业/任务所需小图/img/ye.png" class="tu1">
+				<p class="lie">登录</p>
+				<p class="lie">注册</p>
+				<img src="Web开发二大作业/任务所需小图/img/xin.png" class="tu2">
+				<p class="lie1">信息</p>
+				<img src="Web开发二大作业/任务所需小图/img/dingdan.jpg" class="tu3">
+				<p class="lie1">我的订单</p>
+				<p class="lie">我的收藏</p>
+				<p class="lie">帮钻兑换</p>
+				<img src="Web开发二大作业/任务所需小图/img/phone.png" class="tu4">
+				<p class="lie1">手机版</p>
+				<p class="lie">帮5淘</p>
+				<p class="lie">客户服务</p>
+				<img src="Web开发二大作业/任务所需小图/img/gouwuche.jpg" class="tu5">
+				<p class="lie1">购物车&nbsp;<span class="gouwu">0</span></p>
+				<img src="Web开发二大作业/任务所需小图/img/logo_03.jpg" class="bang">
+				<input type="text" value="输入商品网址或关键词，直通全网，快速帮5购" class="xuan">
+				<button class="niu">搜全网</button>
+				<img src="Web开发二大作业/任务所需小图/img/dike.jpg" class="lianxi">
+				<button class="niu1"><img src="Web开发二大作业/任务所需小图/img/wenhao.jpg" class="dd">常见问题</button>
+				<div class="aaa">
+				    <p class="lie2">洗发护发&nbsp;<span class="gang">|</span></p>
+				    <p class="lie2">日本纸尿裤&nbsp;<span class="gang">|</span></p>
+				    <p class="lie3">身体乳&nbsp;<span class="gang">|</span></p>
+				    <p class="lie3">内衣文胸&nbsp;<span class="gang">|</span></p>
+				    <p class="lie4">iPone 6s&nbsp;<span class="gang">|</p>
+				    <p class="lie4">iPad Air2&nbsp;<span class="gang">|</p>
+				    <p class="lie3">牛仔裤&nbsp;<span class="gang">|</span></p>
+				    <p class="lie3">奶粉&nbsp;<span class="gang">|</span></p>
+				    <p class="lie3">防晒霜&nbsp;<span class="gang">|</span></p>
+				    <p class="lie3">伞</p>
+				</div>
+			</div>
+		</div>
+		<div class="tiao">
+			<div class="ann">
+			    <button class="an1">首页</button>
+			    <button class="an2">热门品牌</button>
+			    <button class="an2">美妆个户</button>
+			    <button class="an2">服饰鞋包</button>
+			    <button class="an2">母婴生活</button>
+			    <button class="an2">食品保健</button>
+			    <button class="an2">韩国直邮</button>
+			    <button class="an2">跨境购</button>
+			    <img src="Web开发二大作业/任务所需小图/img/ff_03.jpg" class="hei">
+		    </div>
+		</div>
+		<div class="zhuti">
+		    <p class="meirong">首页>美容护肤/美体/精油>防晒>韩国 RE:CIPE 水晶清爽防水防晒喷雾SPF50 150ml/瓶</p>
+		    <div class="shui">
+		    	<div class="zuo">
+		    		<div class="zuoo">
+		    	            <div id="smallImg">
+        			            <img src="Web开发二大作业/任务所需小图/img/pp0.jpeg" alt="">
+        			            <div id="lay"></div>
+    			                <div id="bigImg">
+        			                <img src="Web开发二大作业/任务所需小图/img/pp0.jpeg" alt="">
+    			                </div>
+		    	            </div>
+		    	            <img src="Web开发二大作业/任务所需小图/img/spanl.jpg" class="xia1">
+		    	            <img src="Web开发二大作业/任务所需小图/img/sp0.jpeg" original="Web开发二大作业/任务所需小图/img/pp0.jpeg" onmouseover="showimg(this)" class="xia2" id="www">
+		    	            <img src="Web开发二大作业/任务所需小图/img/sp1.jpeg" original="Web开发二大作业/任务所需小图/img/pp1.jpeg" onmouseover="showimg1(this)" class="sp1" id="yyy">
+		    	            <img src="Web开发二大作业/任务所需小图/img/spanr.jpg" class="xia">
+		    	    </div>
+		    	    <div class="zuoyou">
+		    	    	<p class="han">韩国 RE:CIPE 水晶清爽防水防晒喷雾SPF50 150ML/瓶</p>
+		    	    	<div class="xiaaaa">
+		    	    	    <p class="xian">【限购3件】 超透明无痕防晒，防水防汗定妆，保温保湿不粘腻。水晶防晒喷雾，喷后皮肤水润，不油，不留白，更不会像防晒霜那样抹不开，非常实用，开始存货吧。</p>
+		    	    	</div>
+		    	    	<p class="jia">价格<span class="jia1">￥71</span><span class="jia2">￥150</span></p>
+		    	    	<img src="Web开发二大作业/任务所需小图/img/ss_09.jpg">
+		    	    	<p class="hua">化妆品净含量</p>
+		    	    	<div id="qian1">150ml</div>
+		    	    	<div id="qian2">200ml</div>
+		    	    	<p class="liang">数量</p>
+		    	    	<button id="fu">-</button>
+		    	    	<div id="xxx">1</div>
+		    	    	<button id="fu1">+</button>
+		    	    	<p class="jian">件（库存5件）</p>
+		    	    	<p class="xiao">销量</p>
+		    	    	<p class="nnn"><span class="qian3">81</span>件</p>
+		    	    	<p id="nin">您已选择&nbsp;&nbsp;&nbsp;</p>
+		    	    	<p id="nin1"></p>
+		    	    	<button id="li">立即购买</button>
+		    	    	<button id="che" onclick="showPop('tcc')">加入购物车</button>
+		    	    </div>
+		    	</div>
+		    	<div class="zhong">
+		    	</div>
+		    	<div class="you">
+		    		<img src="Web开发二大作业/任务所需小图/img/ww_07.jpg">
+		    	</div>
+		    </div>
+		    <img src="Web开发二大作业/任务所需小图/img/a_07.jpg" class="hengfu">
+		</div>
+		<div class="xiabu">
+			<div class="tutu">
+				<img src="Web开发二大作业/任务所需小图/img/loginB.jpg">
+			</div>
+			<div class="dibu1">
+				<p class="di">购物指南</p>
+				<p class="di1">如何下单</p>
+				<p class="di1">帮5购流程</p>
+				<p class="di1">订单查询</p>
+				<p class="di1">物流配送</p>
+			</div>
+			<div class="dibu1">
+				<p class="di">支付相关</p>
+				<p class="di1">支付方式</p>
+				<p class="di1">安全设置</p>
+				<p class="di1">账户信息</p>
+			</div>
+			<div class="dibu1">
+				<p class="di">售后服务</p>
+				<p class="di1">取消订单</p>
+				<p class="di1">申请售后</p>
+				<p class="di1">退货流程</p>
+				<p class="di1">退款相关</p>
+			</div>
+			<div class="dibu1">
+				<p class="di">VIP服务</p>
+				<p class="di1">VIP优惠</p>
+				<p class="di1">如何成为VIP</p>
+				<p class="di1">超级帮钻</p>
+			</div>
+			<div class="dibu1">
+				<p class="di">帮韩品</p>
+				<p class="di1">韩国正品</p>
+				<p class="di1">闪电发货</p>
+				<p class="di1">帮韩品售后</p>
+			</div>
+			<div class="dibu1">
+				<p class="di">更多</p>
+				<p class="di1">手机APP</p>
+				<p class="di1">帮5采APP</p>
+				<p class="di1">帮5淘插件</p>
+				<p class="di1">其他</p>
+			</div>
+			<div class="tutu1">
+				<img src="Web开发二大作业/任务所需小图/img/erweima.jpg">
+			</div>
+		</div>
+	    <div class="heng"></div>
+	    <div class="zuidi">
+	    	<div class="zuidi1">
+	    	    <p class="zui1">关于帮5买&nbsp;&nbsp;|</p>
+	    	    <p class="zui2">联系我们&nbsp;&nbsp;|</p>
+	    	    <p class="zui2">合作商家&nbsp;&nbsp;|</p>
+	    	    <p class="zui2">友情链接&nbsp;&nbsp;|</p>
+	    	    <p class="zui2">加入我们&nbsp;&nbsp;|</p>
+	    	    <p class="zui2">移动应用&nbsp;&nbsp;|</p>
+	    	    <p class="zui2">热门&nbsp;&nbsp;|</p>
+	    	    <p class="zui2">广告联盟&nbsp;&nbsp;|</p>
+	    	    <p class="zui2">使用条款&nbsp;&nbsp;|</p>
+	    	</div>
+	    	<img src="Web开发二大作业/任务所需小图/img/wei11.jpg" class="wei">
+	    	<img src="Web开发二大作业/任务所需小图/img/bo1.gif" class="wei1">
+	    	<img src="Web开发二大作业/任务所需小图/img/bo2.png">
+	    	<img src="Web开发二大作业/任务所需小图/img/bo3.gif">
+	    	<img src="Web开发二大作业/任务所需小图/img/bo4.png">
+	    	<img src="Web开发二大作业/任务所需小图/img/bo5.png">
+	    	<img src="Web开发二大作业/任务所需小图/img/bo6.png">
+	    	<img src="Web开发二大作业/任务所需小图/img/bo7.png">
+	    </div>
+	    <div id="mask"  style="filter: Alpha(opacity=30); -moz-opacity: 0.6; -khtml-opacity: 0.6;
+             opacity: 0.6;  background-color:#696969; width: 100%; height:1310px; z-index: 5px;
+             position: absolute; left: 0; top: 0; display: none; overflow: hidden;">
+         </div>
+         <div id="tcc" style="display:none;">
+         <button class="close" onclick="hidePop('tcc');">X</button>
+         <img src="Web开发二大作业/任务所需小图/img/rr11_02.jpg">
+         <button class="btn3" id="test" onclick="hidePop('tcc');">继续购物</button>
+         <button class="btn4">去购物车结算</button>
+         </div>
+	</div>
+	<script type="text/javascript">
+		var xxx = document.getElementById('xxx');
+		fu1.onclick = function(){
+			if(xxx.innerHTML<5){
+			    xxx.innerHTML++;
+			}
+		}
+		fu.onclick = function(){
+			if(xxx.innerHTML>0){
+			    xxx.innerHTML--;
+			}
+		}
+		var nin1 = document.getElementById('nin1');
+		var qian1 = document.getElementById('qian1')
+		var qian2 = document.getElementById('qian2')
+		qian1.onclick = function(){
+			qian2.style.backgroundImage = "none";
+			qian2.style.border = "1px solid #fff";
+			qian1.style.backgroundImage = "url('Web开发二大作业/任务所需小图/img/duigou.png')";
+			qian1.style.backgroundRepeat="no-repeat";
+			qian1.style.backgroundPosition = "47px 15px";
+			qian1.style.border = "1px solid #ff0556";
+			nin1.innerHTML = "";
+			nin1.innerHTML+='"'+qian1.innerHTML+'"';
+		}
+		qian2.onclick = function(){
+			qian1.style.backgroundImage = "none";
+			qian1.style.border = "1px solid #fff";
+			qian2.style.backgroundImage = "url('Web开发二大作业/任务所需小图/img/duigou.png')";
+			qian2.style.backgroundRepeat="no-repeat";
+			qian2.style.backgroundPosition = "47px 15px";
+			qian2.style.border = "1px solid #ff0556";
+			nin1.innerHTML = "";
+			nin1.innerHTML+='"'+qian2.innerHTML+'"';
+		}
+		 function getPosition() {
+             var top = document.documentElement.scrollTop;
+             var left = document.documentElement.scrollLeft;
+             var height = document.documentElement.clientHeight;
+             var width = document.documentElement.clientWidth;
+             left = 470;
+             width =550;
+             height=300;
+             top=200;
+             return { top: top, left: left, height: height, width: width };
+         }
+        function showMask(id) {
+             var obj = document.getElementById(id);
+             obj.style.width = document.body.clientWidth;
+             obj.style.height = document.body.clientHeight;
+             obj.style.display = "block";
+         }
+        function hideMask(id) {
+             document.getElementById(id).style.display = "none";
+         }
+        function showPop(id) {
+             showMask('mask');
+             var width = 400;  
+            var height = 200;  
+            var obj = document.getElementById(id);
+             obj.style.display = "block";
+             obj.style.position = "fixed";
+             obj.style.zindex = "10";
+             obj.style.overflow = "hidden";
+             obj.style.width = width + "px";
+             obj.style.height = height + "px";
+             var Position = getPosition();
+             leftadd = (Position.width - width) / 2;
+             topadd = (Position.height - height) / 2;
+             obj.style.top = (Position.top + topadd) + "px";
+             obj.style.left = (Position.left + leftadd) + "px";
+             window.onscroll = function() {
+                 var Position = getPosition();
+                 obj.style.top = (Position.top + topadd) + "px";
+                 obj.style.left = (Position.left + leftadd) + "px";
+             };             
+         }
+        function hidePop(id) {
+         hideMask('mask');
+             document.getElementById(id).style.display = "none";
+        } 
+        function showimg(img) {
+               document.getElementById("smallImg").innerHTML="<img  src='"+img.getAttribute("original")+"'><div id='lay'></div><div id='bigImg'><img src='"+img.getAttribute("original")+"'></div>";
+
+            yyy.style.border = "1px solid #fff";
+         	www.style.border = "1px solid #ff9003";
+         	fangda();
+        }
+        function showimg1(img) {
+            document.getElementById("smallImg").innerHTML="<img  src='"+img.getAttribute("original")+"'><div id='lay'></div><div id='bigImg'><img src='"+img.getAttribute("original")+"'></div>";
+            www.style.border = "1px solid #fff";
+         	yyy.style.border = "1px solid #ff9003";
+         	fangda();
+        }
+        var www = document.getElementById('www');
+        var yyy = document.getElementById('yyy');
+        www.onmouseout = function(){
+         	www.style.border = "1px solid #fff";
+        }
+        yyy.onmouseout = function(){
+            yyy.style.border = "1px solid #fff";
+        }
+      
+       window.onload = function(){
+    var lay = getId("lay"),
+        smallImg = getId("smallImg"),
+        bigImg = getId("bigImg");
+    var imgB = bigImg.children[0];
+    var scale = 3;      
+    var w = smallImg.offsetWidth; 
+    var h = smallImg.offsetHeight;
+    lay.style.width = 120 + "px";
+    lay.style.height = 120 + "px";
+
+    imgB.style.width = w * scale + "px";
+    imgB.style.height = h * scale + "px";
+    smallImg.onmouseover = function(){
+        lay.style.display = "block";
+        bigImg.style.display = "block";
+    }    
+    smallImg.onmouseout = function(){
+        lay.style.display = "none";
+        bigImg.style.display = "none";
+    }
+    smallImg.onmousemove = function(e){
+        e = e || window.event;
+        var x = e.clientX - lay.offsetWidth-150;
+        var y = e.clientY - lay.offsetHeight-180;
+        if(x <= 0){          
+            x = 0;
+        }
+        if(y <= 0){           
+            y = 0;
+        }
+        if(x >= smallImg.offsetWidth - lay.offsetWidth ){
+            x = smallImg.offsetWidth - lay.offsetWidth;
+        }
+        if(y >= smallImg.offsetHeight - lay.offsetHeight ){
+            y = smallImg.offsetHeight - lay.offsetHeight;
+        }
+        lay.style.left = x + "px";
+        lay.style.top = y + "px";
+        imgB.style.left = -x*scale + "px";    
+        imgB.style.top = -y*scale + "px";
+            }    
+        }
+    function fangda(){
+    var lay = getId("lay"),
+        smallImg = getId("smallImg"),
+        bigImg = getId("bigImg");
+    var imgB = bigImg.children[0]; 
+    var scale = 3;       
+    var w = smallImg.offsetWidth;
+    var h = smallImg.offsetHeight;
+    lay.style.width = 120 + "px";
+    lay.style.height = 120 + "px";
+    imgB.style.width = w * scale + "px";
+    imgB.style.height = h * scale + "px";
+    smallImg.onmouseover = function(){
+        lay.style.display = "block";
+        bigImg.style.display = "block";
+    }    
+    smallImg.onmouseout = function(){
+        lay.style.display = "none";
+        bigImg.style.display = "none";
+    }
+    smallImg.onmousemove = function(e){
+        e = e || window.event;
+        var x = e.clientX - lay.offsetWidth-150;
+        var y = e.clientY - lay.offsetHeight-180;
+        if(x <= 0){           
+            x = 0;
+        }
+        if(y <= 0){           
+            y = 0;
+        }
+        if(x >= smallImg.offsetWidth - lay.offsetWidth ){
+            x = smallImg.offsetWidth - lay.offsetWidth;
+        }
+        if(y >= smallImg.offsetHeight - lay.offsetHeight ){
+            y = smallImg.offsetHeight - lay.offsetHeight;
+        }
+        lay.style.left = x + "px";
+        lay.style.top = y + "px";
+        imgB.style.left = -x*scale + "px";    
+        imgB.style.top = -y*scale + "px";
+            }    
+        }
+        function getId(id){
+            return document.getElementById(id);
+        }
+	</script>
+</body>
+</html>
